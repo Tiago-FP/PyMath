@@ -1,0 +1,6 @@
+{
+  "name": "Calculadora Científica Educacional com Python & IA",
+  "description": "Calculadora científica moderna e interativa com visualizador didático de código Python, execução em tempo real via Pyodide, plotagem 2D e assistente matemático com Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

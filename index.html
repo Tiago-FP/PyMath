@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="pt-BR" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora Científica Educacional com Python & IA</title>
+    <meta name="description" content="Calculadora científica moderna e interativa com visualizador didático de código Python, execução em tempo real via Pyodide, plotagem 2D e assistente matemático com Gemini." />
+    <meta property="og:title" content="Calculadora Científica Educacional com Python & IA" />
+    <meta property="og:description" content="Calculadora científica moderna e interativa com visualizador didático de código Python, execução em tempo real via Pyodide, plotagem 2D e assistente matemático com Gemini." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Pyodide WebAssembly Python Runtime for client-side execution -->
+    <script src="https://cdn.jsdelivr.net/pyodide/v0.26.4/full/pyodide.js" defer></script>
+  </head>
+  <body class="bg-slate-950 text-slate-100 antialiased selection:bg-cyan-500/30 selection:text-cyan-200 min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
